@@ -1,0 +1,57 @@
+1.同一网页，只对应一个URL
+	rooep.com
+	www.rooep.com
+	www.rooep.com/index.html
+	rooep.com/index.html
+	利用重定向301 指向一个域名
+	
+	http://www.rooep.com/urlguifan/#6726629-tsina-1-6815-b88781afab32fd5982e8dacfa52d2b82
+
+
+2.让用户能从url判断出网页内容以及网站结构信息，并可以预测将要看到的内容
+3.URL尽量要短，层次要少。
+4.正常的动态url对搜索引擎没有影响。 但是变量参数要少
+5.不添加不能被系统自动识别为url组成部分的字符 如“；”，“，”
+6.子域名和目录的方式（官方文档上几点）
+	比如我们有个
+	产品名称为
+	Samsung Galaxy Tab 2 GT-P3113 8GB
+	类目是：
+	computers networking
+	上级类目是：
+	electronics
+	1.小型网站的URL优化和规范 （小于1000个页面的网站）
+		主页：  http://www.abc.com/
+		栏目页：http://www.abc.com/electronics/
+		列表页：http://www.abc.com/electronics/computers-networking/
+		详细页：http://www.abc.com/electronics/computers-networking/Samsung-Galaxy-Tab-2-GT-P3113-8GB.html
+	 
+	 
+	2.中型网站URL的优化和规范性 （大于1000，小于100万）
+		主页：  http://www.abc.com/
+		栏目页：http://www.abc.com/c/electronics/
+					 (这里的C表示目录的意思，稍微大点的网站就涉及到文件的管理和区分的问题)
+		列表页：http://www.abc.com/c2/computers-networking/  
+					 (这里的C2表示二级目录的意思)
+		详细页：http://www.abc.com/item/computers-networking/Samsung-Galaxy-Tab-2-GT-P3113-8GB.html
+					(这里的item表示是产品页面的意思)
+
+
+	 
+	 
+	3.大型网站URL的优化和规范性 （大于100万以上）
+		主页：  http://www.abc.com/
+		栏目页：http://electronics.abc.com/ (采用二级域名的形式)
+		列表页：http://electronics.abc.com/computers-networking/  
+		详细页：http://electronics.abc.com/item/computers-networking/Samsung-Galaxy-Tab-2-GT-P3113-8GB.html
+		
+		
+http://blog.sina.com.cn/s/blog_baba609f0101beoo.html
+		
+
+7.使用标点符号分割单词，建议用连字符（-），避免下划线（_）
+8.url 优化工具
+
+几个概念：
+白帽，黑帽
+对搜索引擎友好，和对搜索引擎用户友好
