@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+</head>
+
+<body>
+
+<div id="diagram"></div>
+
+
+<script src="../js/raphael-min.js"></script>
+<script src="../js/underscore.js"></script>
+<script src="../js/sequence-diagram-min.js"></script>
+<script>
+  var diagram = Diagram.parse("\
+      Title: Here is a title\
+      A->B: Normal line\
+      B-->C: Dashed line\
+      C->>D: Open arrow\
+      D-->>A: Dashed open arrow\
+      ");
+    diagram.drawSVG("diagram", {theme: 'hand'});
+</script>
+</body>
+</html>
